@@ -10,6 +10,7 @@ dependencies:
   dio: ^5.5.0+1
   flutter:
     sdk: flutter
+  flutter_dotenv: ^5.2.1
   flutter_riverpod: ^2.5.1
   geolocator: ^12.0.0
   jiffy: ^6.3.1
@@ -22,4 +23,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/icons/ 
+    - assets/icons/
+    - .env

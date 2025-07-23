@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart' show immutable;
-
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 @immutable
 class Constants {
-  static const String apiKey = '';
-  static const String apiKey2 = '19d2fd7aab958bfe7f61000e1f5151cc';
+  static String get apiKey => dotenv.env['API_KEY'] ?? '';
+  static String get apiKey2 => dotenv.env['API_KEY2'] ?? '';
 }

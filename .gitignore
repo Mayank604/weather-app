@@ -42,5 +42,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Environment files
+.env
+*.env
+.env.local
+.env.production
+.env.staging
 
 lib\constants\constants.dart
